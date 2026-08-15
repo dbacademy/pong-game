@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "type": "command",
+        "command": "powershell -NoProfile -Command \"Write-Output '{}'\""
+      }
+    ],
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "powershell -NoProfile -Command \"Write-Output '{}'\""
+      }
+    ]
+  }
+}
